@@ -18,8 +18,8 @@ docker run -p 3000:3000 nodeserialize-poc
 
 #### Build the image
 ```sh
-git clone https://github.com/gil01karougbe/InsecureDeserialization-lab1.git
-cd InsecureDeserialization-lab1
+git clone https://github.com/gil01karougbe/nodeserialize-poc.git
+cd nodeserialize-poc
 docker build -t nodeserialize-poc .
 docker run -p 3000:3000 nodeserialize-poc
 ```
