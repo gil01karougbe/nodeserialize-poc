@@ -1,12 +1,11 @@
 # nodeserialize-poc
-Insecure Deserialization to RCE in NodeJS
-
+Insecure Deserialization to RCE in NodeJS</br>
 This is a vulnerable node js App that uses the node-serialize package for serialization and deserialization.
 
 ## How work The app
-the /notes endpoint is protected and a user must log in the app before accessing it. others are not
-when the user log in the application send to the browser a cookie that is checked when accessing the /notes endpoint.
-if the cookie is valid the access is allowed if not it's denied.
+The /notes endpoint is protected and a users must login before accessing it. When the user log in the application send to 
+the client (browser) a cookie that is checked when accessing the /notes endpoint. If the cookie is valid the access is allowed if
+not it's denied.
 
 
 ## Run the App
